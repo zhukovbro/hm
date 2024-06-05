@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const Header = () => {
 	return(
-		<header>
+		<header className="bg-blue-900">
 			<span className="">Многопроильный Медицинский центр "Хэлс Мед"</span>
 			<nav className="topnav">
 				<Link href="/">Главная</Link>
